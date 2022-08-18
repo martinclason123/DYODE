@@ -1,0 +1,47 @@
+.banner {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 1.5em;
+  min-width: 270px;
+}
+
+#banner__mobile-text {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    line-height: 20px;
+  }
+  #banner__full-text {
+    display: none;
+  }
+  #banner__mobile-text {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .banner {
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    line-height: 15px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .banner {
+    font-size: 10px;
+    letter-spacing: 0.15em;
+  }
+}

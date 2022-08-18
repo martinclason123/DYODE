@@ -1,4 +1,4 @@
-.app__navbar {
+.mobile__navbar {
   background-color: var(--color-menu);
   width: 100%;
   display: flex;
@@ -6,27 +6,27 @@
   min-width: 270px;
 }
 
-.app__navbar-left {
+.mobile__navbar-left {
   margin-left: 1.5em;
   width: 50%;
   display: flex;
   justify-content: flex-start;
 }
-.app__navbar-meat {
+.mobile__navbar-meat {
   display: flex;
   align-items: center;
 }
-.app__navbar-logo {
+.mobile__navbar-logo {
   margin-top: 1em;
   display: flex;
   margin-bottom: 0.5em;
   width: 100%;
 }
-.app__navbar-logo img {
+.mobile__navbar-logo img {
   margin-left: 1.5em;
 }
 
-.app__navbar-right {
+.mobile__navbar-right {
   margin-right: 2em;
   width: 50%;
 
@@ -34,13 +34,19 @@
   justify-content: flex-end;
   align-items: center;
 }
-.app__navbar-icons {
-  margin-top: 1em;
+.mobile__navbar-icons {
+  margin-top: 0.5em;
   display: flex;
   justify-content: flex-end;
   gap: 1em;
 }
-.app__navbar-icons img {
+.mobile__navbar-icons img {
   width: 100%;
   min-width: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+  .mobile__navbar {
+    display: none;
+  }
 }

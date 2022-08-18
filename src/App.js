@@ -1,10 +1,12 @@
 import "./App.css";
-import { Navbar } from "./components";
+import { Banner, Navbar, Hero } from "./components";
 
 const App = () => {
   return (
     <div className="App">
+      <Banner />
       <Navbar />
+      <Hero />
     </div>
   );
 };
