@@ -8,33 +8,35 @@ import images from "../../constants/images";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/navigation";
+import "./Hero.scss";
 import "swiper/css/pagination";
-import "swiper/css/scrollbar";
 
 const Hero = () => {
   return (
     <Swiper
       // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      modules={[Pagination, A11y]}
       spaceBetween={0}
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}
     >
       <SwiperSlide>
-        <img src={images.Hero1} alt="new arrivals" />
+        <img
+          class="hero__slider-small"
+          src={images.Hero1Mobile}
+          alt="new arrivals"
+        />
+        <img class="hero__slider-img" src={images.Hero1} alt="new arrivals" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={images.Hero2} alt="favorites" />
+        <img class="hero__slider-img" src={images.Hero2} alt="favorites" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={images.Hero3} alt="mens" />
+        <img class="hero__slider-img" src={images.Hero3} alt="mens" />
       </SwiperSlide>
-      ...
     </Swiper>
   );
 };
