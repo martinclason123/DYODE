@@ -1,0 +1,39 @@
+.newsletter {
+  background-color: var(--color-menu);
+  color: var(--color-white);
+  text-align: center;
+}
+.newsletter__message {
+  font-family: var(--font-header);
+  font-size: 5vw;
+  letter-spacing: 0.2vw;
+  transform: scale(1, 1.25);
+  font-weight: 100;
+}
+.newsletter__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newsletter__img {
+  margin-right: 2vw;
+}
+
+.newsletter__blurb {
+  width: 80%;
+  margin: 0 auto;
+  font-family: var(--font-base);
+  padding-bottom: 15vw;
+}
+
+.newsletter__button {
+  background-color: var(--font-header);
+  color: var(--color-white);
+  font-family: var(--font-base);
+  border: 0.97px solid var(--color-white);
+  padding: 1em;
+  text-transform: uppercase;
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-bottom: 3em;
+}

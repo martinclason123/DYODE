@@ -1,0 +1,32 @@
+.favorites {
+  position: relative;
+}
+.favorites__img {
+  width: 100%;
+  margin-bottom: -0.75vh;
+}
+
+.favorites__img-full {
+  width: 100%;
+  display: none;
+}
+
+.desktopTextBox__container {
+  display: none;
+  position: relative;
+  left: 66vw;
+  background-color: transparent;
+  bottom: 43vw;
+}
+
+@media (min-width: 600px) {
+  .desktopTextBox__container {
+    display: block;
+  }
+  .favorites__img-full {
+    display: block;
+  }
+  .favorites__img {
+    display: none;
+  }
+}

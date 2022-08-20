@@ -5,6 +5,7 @@ import MeatLarge from "../assets/icons/MeatLarge.png";
 import Search from "../assets/icons/Search.png";
 import ShoppingCart from "../assets/icons/ShoppingCart.png";
 import User from "../assets/icons/User.png";
+import Newsletter from "../assets/icons/Newsletter.png";
 
 const icons = {
   LogoLarge,
@@ -14,6 +15,7 @@ const icons = {
   Search,
   ShoppingCart,
   User,
+  Newsletter,
 };
 
 export default icons;

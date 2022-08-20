@@ -11,6 +11,7 @@ import Categories3Mobile from "../assets/images/Categories3Mobile.png";
 import Carousel1 from "../assets/images/Carousel1.png";
 import Carousel1Mobile from "../assets/images/Carousel1Mobile.png";
 import Favorites1 from "../assets/images/Favorites1.png";
+import Favorites1Full from "../assets/images/Favorites1Full.png";
 
 const images = {
   Hero1,
@@ -26,6 +27,7 @@ const images = {
   Carousel1,
   Carousel1Mobile,
   Favorites1,
+  Favorites1Full,
 };
 
 export default images;

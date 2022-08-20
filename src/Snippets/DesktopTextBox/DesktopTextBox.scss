@@ -1,0 +1,32 @@
+.desktopTextBox {
+  color: var(--color-menu);
+  font-size: 2.5vw;
+  height: 0em;
+  font-weight: 100;
+}
+.desktopTextBox__text-header {
+  font-family: var(--font-header);
+  transform: scale(1, 1.25);
+  font-size: 1.5em;
+  letter-spacing: 0.4vw;
+  margin-bottom: 2vw;
+}
+
+.desktopTextBox__text-blurb {
+  font-family: var(--font-base);
+  font-weight: normal;
+  font-size: 1.75vw;
+  margin-top: -2.5em;
+}
+
+.desktopTextBox__text-button {
+  margin-top: 2em;
+  letter-spacing: 0.1em;
+  font-size: 1.05vw;
+  text-transform: uppercase;
+  font-family: var(--font-base);
+  border: none;
+  padding: 1em;
+  color: var(--color-white);
+  background-color: var(--color-black);
+}

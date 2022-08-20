@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700;&display=swap");
 @import url("https://use.typekit.net/sqh4jfj.css");
+@font-face {
+  font-family: Pacifica;
+  src: url("./assets/fonts/Pacifico.ttf");
+}
 :root {
   --font-base: "Lato", sans-serif;
   --font-alt: "Open Sans", sans-serif;
