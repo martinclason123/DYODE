@@ -1,0 +1,104 @@
+.carousel {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.swiper__carousel-container {
+  width: 92vw;
+  margin: 0 auto;
+}
+.carousel__title,
+.carousel__title-full {
+  font-size: 2.22rem;
+  font-family: var(--font-header);
+  line-height: 2vh;
+  margin-top: 0.4em;
+  margin-bottom: 1.1em;
+  min-width: 270px;
+}
+.carousel__title-full {
+  display: none;
+}
+.carousel .swiper-button-next,
+.carousel .swiper-button-prev {
+  color: var(--color-black) !important;
+}
+
+.carousel .swiper-button-next {
+  right: -1vw !important;
+}
+.carousel .swiper-button-prev {
+  left: -1vw !important;
+}
+
+.carousel .swiper-button-next:after,
+.carousel .swiper-button-prev:after {
+  font-size: 4vw !important;
+  font-weight: bold !important;
+  color: var(--color-black) !important;
+}
+.carousel__slide-title {
+  font-family: var(--font-base);
+  font-size: 4vw;
+  font-weight: bold;
+  color: var(--color-black);
+}
+.carousel__slide-blurb {
+  font-size: 2.75vw;
+  text-transform: uppercase;
+  font-family: var(--font-base);
+}
+.carousel__slide-img {
+  width: 100%;
+}
+.carousel__slide-price {
+  font-family: var(--font-header);
+  line-height: 3vh;
+  font-size: 2.5vh;
+  color: var(--color-menu);
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+@media (min-width: 600px) {
+  .carousel__title {
+    display: none;
+  }
+  .carousel__title-full {
+    display: block;
+    font-size: 5vw;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+    font-weight: 600;
+  }
+  .swiper__carousel-container {
+    width: 90vw;
+    overflow: visible;
+  }
+  .carousel__slide-img {
+    width: 70%;
+  }
+  .carousel__slide-title {
+    margin-top: 0.8vw;
+    font-size: 1.5vw;
+  }
+  .carousel__slide-blurb {
+    margin-top: 0.5vw;
+    font-size: 1.15vw;
+  }
+  .carousel__slide-price {
+    margin-top: 0.35em;
+    font-size: 4vh;
+  }
+  .carousel .swiper-button-next {
+    right: 0vw !important;
+  }
+  .carousel .swiper-button-prev {
+    left: 0vw !important;
+  }
+  .carousel .swiper-button-next:after,
+  .carousel .swiper-button-prev:after {
+    font-size: 2vw !important;
+    font-weight: 400 !important;
+  }
+}

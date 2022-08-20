@@ -1,0 +1,37 @@
+.hero__mobile-text {
+  display: none;
+  text-align: center;
+  background-color: var(--color-background);
+  color: var(--color-menu);
+}
+
+.hero__mobile-header {
+  padding-top: 0.5em;
+  font-family: var(--font-header);
+  line-height: 2em;
+  font-size: 8vw;
+  transform: scale(1, 1.25);
+}
+.hero__mobile-blurb {
+  font-family: var(--font-base);
+  font-weight: bold;
+  font-size: 4vw;
+}
+.hero__mobile-button {
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  letter-spacing: 0.1em;
+  font-size: 4vw;
+  text-transform: uppercase;
+  font-family: var(--font-base);
+  border: none;
+  padding: 1em;
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+@media (max-width: 600px) {
+  .hero__mobile-text {
+    display: block;
+  }
+}

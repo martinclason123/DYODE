@@ -1,5 +1,12 @@
 import "./App.css";
-import { Banner, Navbar, Hero } from "./components";
+import {
+  Banner,
+  Navbar,
+  Hero,
+  Categories,
+  Carousel,
+  Favorites,
+} from "./components";
 
 const App = () => {
   return (
@@ -7,6 +14,9 @@ const App = () => {
       <Banner />
       <Navbar />
       <Hero />
+      <Categories />
+      <Carousel />
+      <Favorites />
     </div>
   );
 };
