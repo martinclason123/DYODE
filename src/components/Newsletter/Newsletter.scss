@@ -3,12 +3,14 @@
   color: var(--color-white);
   text-align: center;
 }
+
 .newsletter__message {
   font-family: var(--font-header);
-  font-size: 5vw;
+  font-size: 7vw;
   letter-spacing: 0.2vw;
   transform: scale(1, 1.25);
   font-weight: 100;
+  line-height: 17vw;
 }
 .newsletter__header {
   display: flex;
@@ -18,22 +20,86 @@
 .newsletter__img {
   margin-right: 2vw;
 }
-
-.newsletter__blurb {
-  width: 80%;
-  margin: 0 auto;
+.newsletter__subscribe-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 7vw;
+}
+.newsletter__subscribe-desktop {
+  display: none;
+  padding-bottom: 8vw;
+}
+.newsletter__blurb-mobile {
+  width: 90%;
   font-family: var(--font-base);
-  padding-bottom: 15vw;
+  padding-bottom: 9vh;
+}
+.newsletter__submit-mobile {
+  padding: 1em 3em;
+  color: var(--color-white);
+  background-color: var(--color-menu);
+  border: 1px solid var(--color-white);
+  text-transform: uppercase;
+  font-family: var(--font-base);
+}
+.newletter__form-desktop {
+  display: flex;
+  width: 100%;
+}
+.newsletter__blurb-desktop {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  width: 50%;
+}
+.newsletter__blurb-desktop p {
+  width: 90%;
+  font-family: var(--font-base);
+  font-size: 1.5vw;
+}
+.newsletter__submit-desktop {
+  width: 50%;
+  display: flex;
+}
+.newsletter__input-desktop {
+  width: 70%;
+  font-size: 1.5vw;
+  max-height: 3.75vw;
+}
+.newsletter__input-desktop::placeholder {
+  color: var(--color-placeholder);
+  padding-left: 0.5vw;
+  font-size: 1.5vw;
+}
+.newsletter__button-desktop {
+  width: 25%;
+  margin-left: 1em;
+  text-transform: uppercase;
+  background-color: var(--font-header);
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+  font-size: 1.25vw;
+  max-height: 3.75vw;
 }
 
-.newsletter__button {
-  background-color: var(--font-header);
-  color: var(--color-white);
-  font-family: var(--font-base);
-  border: 0.97px solid var(--color-white);
-  padding: 1em;
-  text-transform: uppercase;
-  padding-left: 3em;
-  padding-right: 3em;
-  margin-bottom: 3em;
+@media (min-width: 600px) {
+  .newsletter__subscribe-mobile {
+    display: none;
+  }
+  .newsletter__subscribe-desktop {
+    display: flex;
+  }
+  .newsletter__message {
+    font-size: 4vw;
+    letter-spacing: 0.1vw;
+    line-height: 10vw;
+  }
+  .newsletter__img {
+    margin-right: 1vw;
+    width: 4.5vw;
+  }
+  .newsletter__header {
+    padding-top: 4vw;
+  }
 }
