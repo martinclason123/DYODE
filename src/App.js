@@ -7,6 +7,7 @@ import {
   Carousel,
   Favorites,
   Newsletter,
+  Footer,
 } from "./components";
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         }
         actionMessage={"subscribe"}
       />
+      <Footer />
     </div>
   );
 };

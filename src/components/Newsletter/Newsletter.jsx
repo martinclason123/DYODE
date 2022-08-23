@@ -6,8 +6,13 @@ const Newsletter = ({ message, blurb, actionMessage }) => {
     <div className="newsletter">
       <div className="newsletter__header">
         <img
-          className="newsletter__img"
-          src={icons.Newsletter}
+          className="newsletter__img-mobile"
+          src={icons.NewsletterLarge}
+          alt="email icon"
+        />
+        <img
+          className="newsletter__img-desktop"
+          src={icons.NewsletterLarge}
           alt="email icon"
         />
         <h1 className="newsletter__message">{message}</h1>
