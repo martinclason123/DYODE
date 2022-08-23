@@ -53,8 +53,8 @@
 }
 .carousel__slide-price {
   font-family: var(--font-header);
-  line-height: 3vh;
-  font-size: 2.5vh;
+  line-height: 6vw;
+  font-size: 5vw;
   color: var(--color-menu);
   font-weight: 600;
   margin-bottom: 1em;
@@ -88,7 +88,7 @@
   }
   .carousel__slide-price {
     margin-top: 0.35em;
-    font-size: 4vh;
+    font-size: 2.5vw;
   }
   .carousel .swiper-button-next {
     right: 0vw !important;

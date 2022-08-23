@@ -32,7 +32,7 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.75vw;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.1em;
@@ -61,10 +61,7 @@
   .full__navbar-links {
     gap: 1.5em;
   }
-  .full__navbar-links a {
-    font-size: 16px;
-    line-height: 20px;
-  }
+
   .full__navbar-icons {
     gap: 1em;
     margin: 2em 0 0 0;

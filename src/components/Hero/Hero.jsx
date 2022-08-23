@@ -1,6 +1,6 @@
 import { MobileTextBox } from "../../Snippets";
 // import Swiper core and required modules
-import { Pagination, A11y } from "swiper";
+import { Pagination, A11y, Autoplay } from "swiper";
 // Import Swiper React components
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -11,16 +11,18 @@ import images from "../../constants/images";
 import "swiper/css";
 import "./Hero.scss";
 import "swiper/css/pagination";
+import "swiper/css/autoplay";
 
 const Hero = () => {
   return (
     <div className="hero">
       <Swiper
         // install Swiper modules
-        modules={[Pagination, A11y]}
+        modules={[Pagination, A11y, Autoplay]}
         spaceBetween={0}
         slidesPerView={1}
         pagination={{ clickable: true }}
+        autoplay={{ delay: 5000 }}
       >
         <SwiperSlide>
           <img
