@@ -6,27 +6,27 @@ const MobileNav = () => {
     <nav className="mobile__navbar">
       <div className="mobile__navbar-left">
         <div className="mobile__navbar-meat">
-          <img alt="Menu" src={icons.MeatSmall} />
+          <img alt="Menu" src={icons.MeatSVG} />
         </div>
         <div className="mobile__navbar-logo">
-          <img alt="Logo" src={icons.LogoSmall} />
+          <img alt="Logo" src={icons.LogoSVG} />
         </div>
       </div>
       <div className="mobile__navbar-right">
         <ul className="mobile__navbar-icons">
           <li>
             <a href="#/">
-              <img alt="Search" src={icons.Search} />
+              <img alt="Search" src={icons.SearchSVG} />
             </a>
           </li>
           <li>
             <a href="#/">
-              <img alt="Account" src={icons.User} />
+              <img alt="Account" src={icons.UserSVG} />
             </a>
           </li>
           <li>
             <a href="#/">
-              <img alt="Cart" src={icons.ShoppingCart} />
+              <img alt="Cart" src={icons.CartSVG} />
             </a>
           </li>
         </ul>

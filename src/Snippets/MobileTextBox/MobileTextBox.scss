@@ -7,16 +7,26 @@
 
 .hero__mobile-header {
   padding-top: 0.5em;
+  padding-bottom: 0.25em;
   font-family: var(--font-header);
   line-height: 1.75em;
   font-size: 8vw;
   transform: scale(1, 1.25);
+  font-weight: bold;
 }
 .hero__mobile-blurb {
   font-family: var(--font-base);
   font-weight: bold;
   font-size: 4vw;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
 }
+
+.hero__mobile-blurb p {
+  max-width: 80%;
+}
+
 .hero__mobile-button {
   margin-top: 1.25em;
   margin-bottom: 2em;

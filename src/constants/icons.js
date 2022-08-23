@@ -12,6 +12,12 @@ import Instagram from "../assets/icons/Instagram.png";
 import Twitter from "../assets/icons/Twitter.png";
 import FacebookSVG from "../assets/icons/Facebook.svg";
 import InstagramSVG from "../assets/icons/Instagram.svg";
+import MeatSVG from "../assets/icons/Meat.svg";
+import LogoSVG from "../assets/icons/Logo.svg";
+
+import SearchSVG from "../assets/icons/Search.svg";
+import UserSVG from "../assets/icons/User.svg";
+import CartSVG from "../assets/icons/Cart.svg";
 
 const icons = {
   LogoLarge,
@@ -28,6 +34,11 @@ const icons = {
   Twitter,
   FacebookSVG,
   InstagramSVG,
+  MeatSVG,
+  LogoSVG,
+  SearchSVG,
+  UserSVG,
+  CartSVG,
 };
 
 export default icons;
