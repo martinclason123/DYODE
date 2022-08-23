@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eedfe5b9.css",
+    "main.js": "/static/js/main.64e5a64e.js",
+    "static/media/Favorites1Full.png": "/static/media/Favorites1Full.68082b59d7c3a316a6e0.png",
+    "static/media/Hero1.png": "/static/media/Hero1.be6172737c5a48703055.png",
+    "static/media/Hero2.png": "/static/media/Hero2.2125b66c37ca532350ad.png",
+    "static/media/Hero3.png": "/static/media/Hero3.cb190142cb4c9813184a.png",
+    "static/media/Categories3.png": "/static/media/Categories3.a754370f490b36768aa8.png",
+    "static/media/Categories1.png": "/static/media/Categories1.5c8671355c54a0554572.png",
+    "static/media/Categories2.png": "/static/media/Categories2.06ac6595ccc3acdd1e83.png",
+    "static/media/Favorites1.png": "/static/media/Favorites1.cb7b820369b8866fe7aa.png",
+    "static/media/Hero1Mobile.png": "/static/media/Hero1Mobile.4fe9188cc6fb2bda9d04.png",
+    "static/media/Hero2Mobile.png": "/static/media/Hero2Mobile.0e377d033e9d8064b146.png",
+    "static/media/Hero3Mobile.png": "/static/media/Hero3Mobile.d3c544422634de18b421.png",
+    "static/media/Categories3Mobile.png": "/static/media/Categories3Mobile.bc653734a9594be7c188.png",
+    "static/media/Carousel1.png": "/static/media/Carousel1.58b34d39bfd65c0d9dac.png",
+    "static/media/Pacifico.ttf": "/static/media/Pacifico.93222797ac691b0ba119.ttf",
+    "static/media/Carousel1Mobile.png": "/static/media/Carousel1Mobile.e4c83cce5c497137ee52.png",
+    "static/media/Instagram.svg": "/static/media/Instagram.71aa96a1bf0d4ad7e7f48a3f1e30a8ff.svg",
+    "index.html": "/index.html",
+    "static/media/Facebook.svg": "/static/media/Facebook.519234fd5d2cc863217633d3035da61e.svg",
+    "main.eedfe5b9.css.map": "/static/css/main.eedfe5b9.css.map",
+    "main.64e5a64e.js.map": "/static/js/main.64e5a64e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eedfe5b9.css",
+    "static/js/main.64e5a64e.js"
+  ]
+}
