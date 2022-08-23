@@ -10,6 +10,8 @@ import NewsletterLarge from "../assets/icons/NewsletterLarge.png";
 import Facebook from "../assets/icons/Facebook.png";
 import Instagram from "../assets/icons/Instagram.png";
 import Twitter from "../assets/icons/Twitter.png";
+import FacebookSVG from "../assets/icons/Facebook.svg";
+import InstagramSVG from "../assets/icons/Instagram.svg";
 
 const icons = {
   LogoLarge,
@@ -24,6 +26,8 @@ const icons = {
   Facebook,
   Instagram,
   Twitter,
+  FacebookSVG,
+  InstagramSVG,
 };
 
 export default icons;
