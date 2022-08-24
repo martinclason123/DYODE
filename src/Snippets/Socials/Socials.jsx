@@ -5,7 +5,11 @@ const Socials = ({ twitter }) => {
     <ul className="footer__socials-container">
       <li>
         <a href="#/">
-          <img src={icons.Facebook} alt="facebook" />
+          <img
+            className="footer__social-img"
+            src={icons.Facebook}
+            alt="facebook"
+          />
         </a>
       </li>
       <li>

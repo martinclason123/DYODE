@@ -19,7 +19,7 @@ const Footer = () => {
           <h1>{footerData.columnC.title}</h1>
         </div>
 
-        <Socials />
+        <Socials twitter={true} />
       </div>
       <div className="footer__container-desktop">
         <div className="footer__desktop-links">

@@ -60,7 +60,6 @@
 .footer__socials-container {
   display: flex;
   gap: 2em;
-  padding-top: 2vw;
 }
 
 @media (min-width: 600px) {
@@ -84,6 +83,7 @@
   }
   .footer__social-img {
     height: 2.5vw;
+    max-height: 2rem;
   }
   .footer__socials-icons h1 {
     font-size: 2vw;
