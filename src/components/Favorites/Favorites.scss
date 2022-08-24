@@ -19,7 +19,18 @@
   bottom: 43vw;
   max-width: 33%;
 }
+.mobileTextBox__container .hero__mobile-header {
+  padding-bottom: 0;
+}
+.mobileTextBox__container .hero__mobile-button {
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 0.75rem;
+}
 
+.mobileTextBox__container .hero__mobile-blurb {
+  font-size: 3.5vw;
+}
 @media (min-width: 600px) {
   .desktopTextBox__container {
     display: block;

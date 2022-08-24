@@ -24,11 +24,13 @@ const Favorites = () => {
           backgroundColor={"var(--color-menu)"}
         />
       </div>
-      <MobileTextBox
-        title={favoritesData.title}
-        blurb={favoritesData.blurb}
-        actionMessage={favoritesData.actionMessage}
-      />
+      <div className="mobileTextBox__container">
+        <MobileTextBox
+          title={favoritesData.title}
+          blurb={favoritesData.blurb}
+          actionMessage={favoritesData.actionMessage}
+        />
+      </div>
     </div>
   );
 };

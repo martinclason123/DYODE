@@ -31,7 +31,7 @@ const heroData = [
     action: "shop now",
     image: images.Hero1,
     mobileImage: images.Hero1Mobile,
-    alternateColor: false,
+
     color: "var(--color-menu)",
     backgroundColor: "var(--color-black)",
   },
@@ -41,7 +41,8 @@ const heroData = [
     action: "shop now",
     image: images.Hero2,
     mobileImage: images.Hero2Mobile,
-    alternateColor: true,
+    color: "var(--color-white)",
+    backgroundColor: "var(--color-black)",
   },
   {
     title: "Men's Tees",
@@ -49,7 +50,8 @@ const heroData = [
     action: "shop now",
     image: images.Hero3,
     mobileImage: images.Hero3Mobile,
-    alternateColor: true,
+    color: "var(--color-white)",
+    backgroundColor: "var(--color-black)",
   },
 ];
 

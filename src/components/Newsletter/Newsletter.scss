@@ -38,7 +38,7 @@
 .newsletter__blurb-mobile {
   width: 90%;
   font-family: var(--font-base);
-  padding-bottom: 13vh;
+  padding-bottom: 9vh;
   font-size: 4vw;
   font-weight: 400;
 }
@@ -46,12 +46,12 @@
   padding: 1em 3em;
   color: var(--color-white);
   background-color: var(--color-menu);
-  border: 2px solid var(--color-white);
+  border: 1px solid var(--color-white);
   text-transform: uppercase;
   font-family: var(--font-base);
   font-weight: bold;
   letter-spacing: 0.2vw;
-  font-size: 1.25em;
+  font-size: 1rem;
 }
 .newletter__form-desktop {
   display: flex;

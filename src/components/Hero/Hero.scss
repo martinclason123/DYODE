@@ -24,39 +24,25 @@ span.swiper-pagination-bullet {
 .hero__text {
   position: absolute;
   left: 4.5em;
-  top: 22%;
+  top: 25%;
   color: var(--color-menu);
   font-size: 2.5vw;
-}
-.hero__text-header {
-  font-family: var(--font-header);
-  transform: scale(1, 1.25);
-  font-size: 2em;
-}
-.hero__text-blurb {
-  font-family: var(--font-base);
-  font-weight: bold;
-  font-size: 1.75vw;
-  margin-top: -2.5em;
+  margin-bottom: 2vw;
 }
 
-.hero__text-button {
-  margin-top: 2em;
-  letter-spacing: 0.1em;
-  font-size: 1.05vw;
-  text-transform: uppercase;
-  font-family: var(--font-base);
-  border: none;
-  padding: 1em;
-  color: var(--color-white);
-  background-color: var(--color-black);
-  cursor: pointer;
+.hero__text .desktopTextBox__text-header {
+  letter-spacing: 0.1vw;
+  font-size: 5vw;
+  line-height: 14vw;
 }
 
-.text__secondary {
-  color: var(--color-white);
+.hero__text .desktopTextBox__text-blurb {
+  font-weight: 600;
 }
-
+.hero__text .desktopTextBox__text-button {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
 @media (max-width: 600px) {
   .hero__slider-small {
     display: block;
