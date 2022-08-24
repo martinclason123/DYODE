@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DYODE/static/css/main.0b6461e2.css",
-    "main.js": "/DYODE/static/js/main.976c9238.js",
+    "main.css": "/DYODE/static/css/main.22951b80.css",
+    "main.js": "/DYODE/static/js/main.3effa76c.js",
     "static/media/Favorites1Full.png": "/DYODE/static/media/Favorites1Full.68082b59d7c3a316a6e0.png",
     "static/media/Hero1.png": "/DYODE/static/media/Hero1.be6172737c5a48703055.png",
     "static/media/Hero2.png": "/DYODE/static/media/Hero2.2125b66c37ca532350ad.png",
@@ -21,15 +21,16 @@
     "static/media/Meat.svg": "/DYODE/static/media/Meat.9aaa2f78c82954291afdc9257fa56e20.svg",
     "static/media/Cart.svg": "/DYODE/static/media/Cart.1e992e1de765a9216b4429f987396673.svg",
     "static/media/Instagram.svg": "/DYODE/static/media/Instagram.71aa96a1bf0d4ad7e7f48a3f1e30a8ff.svg",
+    "static/media/TwitterSVG.svg": "/DYODE/static/media/TwitterSVG.c41c6c4ac16e49a5198ffa0208727ddd.svg",
     "static/media/Search.svg": "/DYODE/static/media/Search.23a3979cae9363188c56969cc2c34b75.svg",
-    "index.html": "/DYODE/index.html",
     "static/media/User.svg": "/DYODE/static/media/User.72467a073e66ad341534f3204fd6abfa.svg",
+    "index.html": "/DYODE/index.html",
     "static/media/Facebook.svg": "/DYODE/static/media/Facebook.519234fd5d2cc863217633d3035da61e.svg",
-    "main.0b6461e2.css.map": "/DYODE/static/css/main.0b6461e2.css.map",
-    "main.976c9238.js.map": "/DYODE/static/js/main.976c9238.js.map"
+    "main.22951b80.css.map": "/DYODE/static/css/main.22951b80.css.map",
+    "main.3effa76c.js.map": "/DYODE/static/js/main.3effa76c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b6461e2.css",
-    "static/js/main.976c9238.js"
+    "static/css/main.22951b80.css",
+    "static/js/main.3effa76c.js"
   ]
 }
