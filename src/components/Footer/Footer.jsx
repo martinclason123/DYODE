@@ -1,45 +1,29 @@
 import "./Footer.scss";
 import React from "react";
 import icons from "../../constants/icons";
+import { openAccordian, closeAccordian } from "../../constants/functions";
 
 const Footer = () => {
-  const manageAccordian = (sibling, target, submenu, action) => {
-    sibling.style.display = "block";
-    target.style.display = "none";
-    submenu.style.display = action;
-  };
-
   return (
     <div className="footer">
       <div className="footer__links-container">
-        <div className="footer__links-header">
+        <div
+          className="footer__links-header"
+          onClick={(e) => {
+            openAccordian(e);
+          }}
+        >
           <h1>Customer Service</h1>
-          <span
-            className="footer__expand-icon"
-            onClick={(e) => {
-              manageAccordian(
-                e.target.nextSibling,
-                e.target,
-                e.target.parentElement.nextSibling,
-                "block"
-              );
-            }}
-          >
-            +
-          </span>
-          <span
-            className="footer__minimize-icon"
-            onClick={(e) => {
-              manageAccordian(
-                e.target.previousSibling,
-                e.target,
-                e.target.parentElement.nextSibling,
-                "none"
-              );
-            }}
-          >
-            -
-          </span>
+          <span>+</span>
+        </div>
+        <div
+          className="footer__links-header minimize"
+          onClick={(e) => {
+            closeAccordian(e);
+          }}
+        >
+          <h1>Customer Service</h1>
+          <span>-</span>
         </div>
         <ul className="footer_links_list">
           <li className="footer__link">
@@ -61,34 +45,23 @@ const Footer = () => {
             <a href="#/">Wishlist</a>
           </li>
         </ul>
-        <div className="footer__links-header">
+        <div
+          className="footer__links-header"
+          onClick={(e) => {
+            openAccordian(e);
+          }}
+        >
           <h1>Company</h1>
-          <span
-            className="footer__expand-icon"
-            onClick={(e) => {
-              manageAccordian(
-                e.target.nextSibling,
-                e.target,
-                e.target.parentElement.nextSibling,
-                "block"
-              );
-            }}
-          >
-            +
-          </span>
-          <span
-            className="footer__minimize-icon"
-            onClick={(e) => {
-              manageAccordian(
-                e.target.previousSibling,
-                e.target,
-                e.target.parentElement.nextSibling,
-                "none"
-              );
-            }}
-          >
-            -
-          </span>
+          <span>+</span>
+        </div>
+        <div
+          className="footer__links-header minimize"
+          onClick={(e) => {
+            closeAccordian(e);
+          }}
+        >
+          <h1>Company</h1>
+          <span>-</span>
         </div>
         <ul className="footer_links_list">
           <li className="footer__link">
