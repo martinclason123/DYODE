@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DYODE/static/css/main.de608b01.css",
-    "main.js": "/DYODE/static/js/main.3e4bf7e3.js",
+    "main.css": "/DYODE/static/css/main.0b6461e2.css",
+    "main.js": "/DYODE/static/js/main.976c9238.js",
     "static/media/Favorites1Full.png": "/DYODE/static/media/Favorites1Full.68082b59d7c3a316a6e0.png",
     "static/media/Hero1.png": "/DYODE/static/media/Hero1.be6172737c5a48703055.png",
     "static/media/Hero2.png": "/DYODE/static/media/Hero2.2125b66c37ca532350ad.png",
@@ -25,11 +25,11 @@
     "index.html": "/DYODE/index.html",
     "static/media/User.svg": "/DYODE/static/media/User.72467a073e66ad341534f3204fd6abfa.svg",
     "static/media/Facebook.svg": "/DYODE/static/media/Facebook.519234fd5d2cc863217633d3035da61e.svg",
-    "main.de608b01.css.map": "/DYODE/static/css/main.de608b01.css.map",
-    "main.3e4bf7e3.js.map": "/DYODE/static/js/main.3e4bf7e3.js.map"
+    "main.0b6461e2.css.map": "/DYODE/static/css/main.0b6461e2.css.map",
+    "main.976c9238.js.map": "/DYODE/static/js/main.976c9238.js.map"
   },
   "entrypoints": [
-    "static/css/main.de608b01.css",
-    "static/js/main.3e4bf7e3.js"
+    "static/css/main.0b6461e2.css",
+    "static/js/main.976c9238.js"
   ]
 }
