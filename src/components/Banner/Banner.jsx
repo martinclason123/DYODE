@@ -1,11 +1,11 @@
 import "./Banner.scss";
-import Data from "../../Data/Header.json";
+import { bannerData } from "../../Data/Data";
 
 const Banner = () => {
   return (
     <div className="banner">
-      <p id="banner__full-text">{Data.message}</p>
-      <p id="banner__mobile-text">{Data.mobileMessage}</p>
+      <p id="banner__full-text">{bannerData.message}</p>
+      <p id="banner__mobile-text">{bannerData.mobileMessage}</p>
     </div>
   );
 };

@@ -1,46 +1,35 @@
-import images from "../../constants/images";
 import "./Categories.scss";
+import { categoriesData } from "../../Data/Data";
 
 const Categories = () => {
   return (
     <div className="categories">
       <div className="categories__links">
-        <a href="#/">
-          <div className="categories__link">
-            <img
-              className="categories__link-image"
-              src={images.Categories1}
-              alt="womens"
-            />
-            <h1 className="categories__label">Women's</h1>
-          </div>
-        </a>
-        <a href="#/">
-          <div className="categories__link">
-            <img
-              className="categories__link-image"
-              src={images.Categories2}
-              alt="womens"
-            />
-            <h1 className="categories__label">Men's</h1>
-          </div>
-        </a>
-        <a href="#/">
-          <div className="categories__link last">
-            <img
-              className="categories__link-image"
-              src={images.Categories3}
-              alt="womens"
-            />
-            <h1 className="categories__label">Accessories</h1>
-          </div>
-        </a>
+        {categoriesData.standardLinks.map((link) => {
+          return (
+            <a href={`#/${link.url}`}>
+              <div className={"categories__link" + (link.last ? " last" : "")}>
+                <img
+                  className="categories__link-image"
+                  src={link.image}
+                  alt={link.label}
+                />
+                <h1 className="categories__label">{link.label}</h1>
+              </div>
+            </a>
+          );
+        })}
       </div>
       <div className="categories__links--bottom">
-        <a href="#/">
+        <a href={`#/${categoriesData.alternateLink.url}`}>
           <div>
-            <img src={images.Categories3Mobile} alt="womens" />
-            <h1 className="categories__label">Accessories</h1>
+            <img
+              src={categoriesData.alternateLink.image}
+              alt={categoriesData.alternateLink.label}
+            />
+            <h1 className="categories__label">
+              {categoriesData.alternateLink.label}
+            </h1>
           </div>
         </a>
       </div>

@@ -18,13 +18,7 @@ const App = () => {
       <Categories />
       <Carousel />
       <Favorites />
-      <Newsletter
-        message={"Sign Up & Stay Connected"}
-        blurb={
-          "Sign up for the newsletter and get 20% off! Gain access to exclusive offers and be the first to know when new stuff drops!"
-        }
-        actionMessage={"subscribe"}
-      />
+      <Newsletter />
       <Footer />
     </div>
   );

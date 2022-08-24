@@ -1,29 +1,33 @@
 import "./Favorites.scss";
-import images from "../../constants/images";
 import { DesktopTextBox, MobileTextBox } from "../../Snippets";
+import { favoritesData } from "../../Data/Data";
 
 const Favorites = () => {
   return (
     <div className="favorites">
       <img
         className="favorites__img-full"
-        src={images.Favorites1Full}
+        src={favoritesData.imageDesktop}
         alt="favorites"
       />
-      <img className="favorites__img" src={images.Favorites1} alt="favorites" />
+      <img
+        className="favorites__img"
+        src={favoritesData.imageMobile}
+        alt="favorites"
+      />
       <div className="desktopTextBox__container">
         <DesktopTextBox
-          title={"Our Favorite Tees"}
-          blurb={"Everyday tees you need!"}
-          actionMessage={"shop now"}
+          title={favoritesData.title}
+          blurb={favoritesData.blurb}
+          actionMessage={favoritesData.actionMessage}
           color={"var(--color-white)"}
           backgroundColor={"var(--color-menu)"}
         />
       </div>
       <MobileTextBox
-        title={"Our Favorite Tees"}
-        blurb={"Everyday tees you need!"}
-        actionMessage={"shop now"}
+        title={favoritesData.title}
+        blurb={favoritesData.blurb}
+        actionMessage={favoritesData.actionMessage}
       />
     </div>
   );

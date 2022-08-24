@@ -1,5 +1,29 @@
 import images from "../constants/images";
 
+const bannerData = {
+  message: "free shipping on all orders over $75",
+  mobileMessage: "free shipping on all orders ",
+};
+
+const navbarData = [
+  {
+    title: "men's",
+    url: "/mens",
+  },
+  {
+    title: "women's",
+    url: "/womens",
+  },
+  {
+    title: "accessories",
+    url: "/accessories",
+  },
+  {
+    title: "sale",
+    url: "/sale",
+  },
+];
+
 const heroData = [
   {
     title: "Shop New Arivals",
@@ -27,22 +51,143 @@ const heroData = [
   },
 ];
 
-const footerData = [
+const categoriesData = {
+  standardLinks: [
+    {
+      url: "/womens",
+      image: images.Categories1,
+      label: "Women's",
+      last: false,
+    },
+    {
+      url: "/mens",
+      image: images.Categories2,
+      label: "Men's",
+      last: false,
+    },
+    {
+      url: "/accessories",
+      image: images.Categories3,
+      label: "Accessories",
+      last: true,
+    },
+  ],
+  alternateLink: {
+    url: "/accessories",
+    image: images.Categories3Mobile,
+    label: "Accessories",
+  },
+};
+
+const carouselData = [
   {
-    header: "Customer Service",
-    links: [
-      "Accessibility",
-      "Contact Us",
-      "Return Policy",
-      "FAQ",
-      "Gift Certificates",
-      "Wishlist",
-    ],
+    title: "Product Title",
+    description: "women's t-shirt",
+    price: "$19.99",
+    image: images.Carousel1,
+    url: "/product",
   },
   {
-    header: "Company",
-    links: ["About Us", "Careers", "Press", "Affiliates"],
+    title: "Product Title",
+    description: "women's t-shirt",
+    price: "$19.99",
+    image: images.Carousel1,
+    url: "/product",
+  },
+  {
+    title: "Product Title",
+    description: "women's t-shirt",
+    price: "$19.99",
+    image: images.Carousel1,
+    url: "/product",
+  },
+  {
+    title: "Product Title",
+    description: "women's t-shirt",
+    price: "$19.99",
+    image: images.Carousel1,
+    url: "/product",
   },
 ];
 
-export { heroData };
+const favoritesData = {
+  imageDesktop: images.Favorites1Full,
+  imageMobile: images.Favorites1,
+  title: "Our Favorite Tees",
+  blurb: "Everyday tees you need!",
+  actionMessage: "shop now",
+};
+
+const newsletterData = {
+  message: "Sign Up & Stay Connected",
+  blurb:
+    "Sign up for the newsletter and get 20% off! Gain access to exclusive offers and be the first to know when new stuff drops!",
+  actionMessage: "subscribe",
+};
+
+const footerData = {
+  columnA: {
+    title: "Customer Service",
+    links: [
+      {
+        title: "Accessibility",
+        url: "/accessibility",
+      },
+      {
+        title: "Contact Us",
+        url: "./contact Us",
+      },
+      {
+        title: "Return Policy",
+        url: "returnpolicy",
+      },
+      {
+        title: "FAQ",
+        url: "faq",
+      },
+      {
+        title: "Gift Certificates",
+        url: "giftcertificates",
+      },
+      {
+        title: "Wishlist",
+        url: "/wishlist",
+      },
+    ],
+  },
+  columnB: {
+    title: "Company",
+    links: [
+      {
+        title: "About Us",
+        url: "/aboutus",
+      },
+      {
+        title: "Careers",
+        url: "/careers",
+      },
+      {
+        title: "Press",
+        url: "/press",
+      },
+      {
+        title: "Affiliates",
+        url: "/affiliates",
+      },
+    ],
+  },
+  columnC: {
+    title: "Follow Us",
+  },
+};
+
+export {
+  bannerData,
+  heroData,
+  navbarData,
+  categoriesData,
+  carouselData,
+  favoritesData,
+  newsletterData,
+  footerData,
+};

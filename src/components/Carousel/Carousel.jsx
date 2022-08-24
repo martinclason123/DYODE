@@ -1,5 +1,5 @@
 import "./Carousel.scss";
-import images from "../../constants/images";
+import { carouselData } from "../../Data/Data";
 
 // import Swiper core and required modules
 import { Navigation, A11y } from "swiper";
@@ -31,54 +31,22 @@ const Carousel = () => {
           navigation
           scrollbar={{ draggable: true }}
         >
-          <SwiperSlide>
-            <a href="#/" alt="new products">
-              <img
-                className="carousel__slide-img"
-                src={images.Carousel1}
-                alt="new products"
-              />
-              <h1 className="carousel__slide-title">Product Title</h1>
-              <p className="carousel__slide-blurb">women's t-shirt</p>
-              <p className="carousel__slide-price">$19.99</p>
-            </a>
-          </SwiperSlide>
-          <SwiperSlide>
-            <a href="#/" alt="new products">
-              <img
-                className="carousel__slide-img"
-                src={images.Carousel1}
-                alt="new products"
-              />
-              <h1 className="carousel__slide-title">Product Title</h1>
-              <p className="carousel__slide-blurb">women's t-shirt</p>
-              <p className="carousel__slide-price">$19.99</p>
-            </a>
-          </SwiperSlide>
-          <SwiperSlide>
-            <a href="#/" alt="new products">
-              <img
-                className="carousel__slide-img"
-                src={images.Carousel1}
-                alt="new products"
-              />
-              <h1 className="carousel__slide-title">Product Title</h1>
-              <p className="carousel__slide-blurb">women's t-shirt</p>
-              <p className="carousel__slide-price">$19.99</p>
-            </a>
-          </SwiperSlide>
-          <SwiperSlide>
-            <a href="#/" alt="new products">
-              <img
-                className="carousel__slide-img"
-                src={images.Carousel1}
-                alt="new products"
-              />
-              <h1 className="carousel__slide-title">Product Title</h1>
-              <p className="carousel__slide-blurb">women's t-shirt</p>
-              <p className="carousel__slide-price">$19.99</p>
-            </a>
-          </SwiperSlide>
+          {carouselData.map((slide) => {
+            return (
+              <SwiperSlide>
+                <a href={`#/${slide.url}`} alt={slide.title}>
+                  <img
+                    className="carousel__slide-img"
+                    src={slide.image}
+                    alt={slide.title}
+                  />
+                  <h1 className="carousel__slide-title">{slide.title}</h1>
+                  <p className="carousel__slide-blurb">{slide.description}</p>
+                  <p className="carousel__slide-price">{slide.price}</p>
+                </a>
+              </SwiperSlide>
+            );
+          })}
         </Swiper>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import "./FullNav.scss";
 import icons from "../../../constants/icons";
+import { navbarData } from "../../../Data/Data";
 
 const FullNav = () => {
   return (
@@ -10,18 +11,13 @@ const FullNav = () => {
       </div>
       <div className="full__navbar-center">
         <ul className="full__navbar-links">
-          <li>
-            <a href="#/">MEN'S</a>
-          </li>
-          <li>
-            <a href="#/">WOMEN'S</a>
-          </li>
-          <li>
-            <a href="#/">ACCESSORIES</a>
-          </li>
-          <li>
-            <a href="#/">SALE!</a>
-          </li>
+          {navbarData.map((link) => {
+            return (
+              <li>
+                <a href={`#${link.url}`}>{link.title}</a>
+              </li>
+            );
+          })}
         </ul>
       </div>
       <div className="full__nav-right">
