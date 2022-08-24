@@ -7,7 +7,7 @@ const Socials = ({ twitter }) => {
         <a href="#/">
           <img
             className="footer__social-img"
-            src={icons.Facebook}
+            src={icons.FacebookSVG}
             alt="facebook"
           />
         </a>
@@ -16,7 +16,7 @@ const Socials = ({ twitter }) => {
         <a href="#/">
           <img
             className="footer__social-img"
-            src={icons.Instagram}
+            src={icons.InstagramSVG}
             alt="instagram"
           />
         </a>
@@ -26,7 +26,7 @@ const Socials = ({ twitter }) => {
           <a href="#/">
             <img
               className="footer__social-img"
-              src={icons.Twitter}
+              src={icons.TwitterSVG}
               alt="twitter"
             />
           </a>

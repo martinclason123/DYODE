@@ -6,7 +6,11 @@
   min-width: 600px;
   padding: 2em;
 }
-
+#navbar__logo-large {
+  cursor: pointer;
+  height: 6vw;
+  min-height: 3rem;
+}
 .full__navbar-left {
   width: 20%;
   margin-left: 1em;
@@ -65,12 +69,6 @@
   .full__navbar-icons {
     gap: 1em;
     margin: 2em 0 0 0;
-  }
-  #navbar__logo-small {
-    display: flex;
-  }
-  #navbar__logo-large {
-    display: none;
   }
 }
 

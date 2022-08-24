@@ -24,7 +24,7 @@ const Accordian = ({ title, links }) => {
       <ul className="footer_links_list">
         {links.map((link) => {
           return (
-            <li className="footer__link">
+            <li className="footer__link" key={link.title}>
               <a href={`#${link.url}`}>{link.title}</a>
             </li>
           );

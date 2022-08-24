@@ -14,7 +14,7 @@ import FacebookSVG from "../assets/icons/Facebook.svg";
 import InstagramSVG from "../assets/icons/Instagram.svg";
 import MeatSVG from "../assets/icons/Meat.svg";
 import LogoSVG from "../assets/icons/Logo.svg";
-
+import TwitterSVG from "../assets/icons/TwitterSVG.svg";
 import SearchSVG from "../assets/icons/Search.svg";
 import UserSVG from "../assets/icons/User.svg";
 import CartSVG from "../assets/icons/Cart.svg";
@@ -39,6 +39,7 @@ const icons = {
   SearchSVG,
   UserSVG,
   CartSVG,
+  TwitterSVG,
 };
 
 export default icons;

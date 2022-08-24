@@ -7,7 +7,7 @@ const Categories = () => {
       <div className="categories__links">
         {categoriesData.standardLinks.map((link) => {
           return (
-            <a href={`#/${link.url}`}>
+            <a href={`#/${link.url}`} key={link.label}>
               <div className={"categories__link" + (link.last ? " last" : "")}>
                 <img
                   className="categories__link-image"

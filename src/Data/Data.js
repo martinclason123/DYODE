@@ -27,11 +27,13 @@ const navbarData = [
 const heroData = [
   {
     title: "Shop New Arivals",
-    blurb: "Our coolest items are waiting for you",
+    blurb: "Our coolest items are waiting for you!",
     action: "shop now",
     image: images.Hero1,
     mobileImage: images.Hero1Mobile,
     alternateColor: false,
+    color: "var(--color-menu)",
+    backgroundColor: "var(--color-black)",
   },
   {
     title: "Our Fave Tees",

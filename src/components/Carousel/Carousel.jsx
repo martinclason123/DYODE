@@ -31,9 +31,9 @@ const Carousel = () => {
           navigation
           scrollbar={{ draggable: true }}
         >
-          {carouselData.map((slide) => {
+          {carouselData.map((slide, index) => {
             return (
-              <SwiperSlide>
+              <SwiperSlide key={index}>
                 <a href={`#/${slide.url}`} alt={slide.title}>
                   <img
                     className="carousel__slide-img"

@@ -6,14 +6,13 @@ const FullNav = () => {
   return (
     <nav className="full__navbar">
       <div className="full__navbar-left">
-        <img id="navbar__logo-large" src={icons.LogoLarge} alt="logo" />
-        <img id="navbar__logo-small" src={icons.LogoSmall} alt="logo" />
+        <img id="navbar__logo-large" src={icons.LogoSVG} alt="logo" />
       </div>
       <div className="full__navbar-center">
         <ul className="full__navbar-links">
           {navbarData.map((link) => {
             return (
-              <li>
+              <li key={link.title}>
                 <a href={`#${link.url}`}>{link.title}</a>
               </li>
             );
@@ -24,17 +23,17 @@ const FullNav = () => {
         <ul className="full__navbar-icons">
           <li>
             <a href="#/">
-              <img alt="Search" src={icons.Search} />
+              <img alt="Search" src={icons.SearchSVG} />
             </a>
           </li>
           <li>
             <a href="#/">
-              <img alt="Account" src={icons.User} />
+              <img alt="Account" src={icons.UserSVG} />
             </a>
           </li>
           <li>
             <a href="#/">
-              <img alt="Cart" src={icons.ShoppingCart} />
+              <img alt="Cart" src={icons.CartSVG} />
             </a>
           </li>
         </ul>

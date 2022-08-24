@@ -1,4 +1,4 @@
-import { MobileTextBox } from "../../Snippets";
+import { MobileTextBox, DesktopTextBox } from "../../Snippets";
 // import Swiper core and required modules
 import { Pagination, A11y, Autoplay } from "swiper";
 // Import Swiper React components
@@ -25,35 +25,25 @@ const Hero = () => {
       >
         {heroData.map((slide) => {
           return (
-            <SwiperSlide>
+            <SwiperSlide key={slide.title}>
               <img
-                class="hero__slider-small"
+                className="hero__slider-small"
                 src={slide.mobileImage}
                 alt="new arrivals"
               />
               <img
-                class="hero__slider-img"
+                className="hero__slider-img"
                 src={slide.image}
                 alt="new arrivals"
               />
               <div className="hero__text">
-                <h1
-                  className={
-                    "hero__text-header" +
-                    (slide.alternateColor ? " text__secondary" : "")
-                  }
-                >
-                  {slide.title}
-                </h1>
-                <p
-                  className={
-                    "hero__text-blurb" +
-                    (slide.alternateColor ? " text__secondary" : "")
-                  }
-                >
-                  {slide.blurb}
-                </p>
-                <button className="hero__text-button">{slide.action}</button>
+                <DesktopTextBox
+                  title={slide.title}
+                  blurb={slide.blurb}
+                  actionMessage={slide.action}
+                  color={slide.color}
+                  backgroundColor={slide.backgroundColor}
+                />
               </div>
               <MobileTextBox
                 title={slide.title}
